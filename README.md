@@ -1,11 +1,12 @@
 # christmas_tree
 
-Flutter Error Widget Can be Replaced with Custom Widgets.
-
 Showcase for Christmas.
 
+
+**Flutter error widget can be replaced with Custom Widgets.**
+
 Basically you can replace errorWidget.
-Recommend to replace the horrible red error stacktrace widget with code below.
+**Recommend** to replace the horrible red error stacktrace widget with code below.
 
 ```dart
  ErrorWidget.builder = (errorDetails) {
