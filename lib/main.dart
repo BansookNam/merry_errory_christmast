@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:christmas_tree/widgets/custom_widgets.dart';
+import 'package:merry_errory_christmas/widgets/custom_widgets.dart';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 
@@ -82,6 +82,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       merryXmas.substring(0, 5),
                       style: textStyle,
                     ),
+                    Transform.rotate(
+                        angle: pi / 5,
+                        child: Icon(
+                          Icons.star,
+                          color: Colors.yellow,
+                          size: 50,
+                        )),
                     getTop(),
                     getMiddle(110),
                     getMiddle(120),
@@ -121,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         );
                       };
                       setState(() {
-                        if (_clickCount > merryXmas.length-1) {
+                        if (_clickCount > merryXmas.length - 1) {
                           _clickCount = 12;
                         } else {
                           _clickCount++;
