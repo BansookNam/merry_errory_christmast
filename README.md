@@ -7,7 +7,7 @@ Showcase for Christmas.
 Basically you can replace errorWidget.
 Recommend to replace the horrible red error stacktrace widget with code below.
 
-```
+```dart
  ErrorWidget.builder = (errorDetails) {
                         return Center(
                           child: Container(
@@ -17,6 +17,6 @@ Recommend to replace the horrible red error stacktrace widget with code below.
 ```
 
 
-
 Demo:
+
 ![tree_demo](./gif/tree_demo.gif)
